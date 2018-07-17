@@ -30,4 +30,3 @@ gastown = Store.create(
 gastown.save
 
 puts Store.count
-puts Store.all.inspect

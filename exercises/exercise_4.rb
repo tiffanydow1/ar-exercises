@@ -39,7 +39,6 @@ yaletown.save
 end
 
 @womens_stores = Store.where("mens_apparel = ? AND womens_apparel = ? AND annual_revenue < ?", false, true, 1000000)
-# @womens_stores = Store.where("mens_apparel = ? && womens_apparel = ? && annual_revenue < ?", false, true, 1000000)
 
 @womens_stores.each do |store|
   puts store.name

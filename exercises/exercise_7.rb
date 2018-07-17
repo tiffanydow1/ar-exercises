@@ -10,3 +10,64 @@ puts "Exercise 7"
 puts "----------"
 
 # Your code goes here ...
+puts "Please enter the name of the store you are looking for."
+
+new_store = Store.new(
+  name: "St. John's"
+  )
+
+puts new_store.valid?
+puts new_store.errors.messages
+puts new_store.attributes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
